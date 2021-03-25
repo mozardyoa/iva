@@ -1,0 +1,329 @@
+
+            :root{
+                --color2:#F4F4F4;
+                --color1:#D89584;
+                --size1:12px;
+                --color3:yellowgreen;
+            }
+
+            body{
+                font-family: 'Times New Roman';
+                height: 100px;
+                
+            }
+
+            iframe{
+                width: 100%;
+                border: none;
+                height: 300px;  
+            }
+
+            div.cover{
+                position: relative;
+                padding-top: 20px; 
+                background: url(impression-grand-format-rps-imprimerie-val-oise-95-accueil.jpg) no-repeat center bottom/cover;
+                 /*background: url(impression-grand-format-rps-imprimerie-val-oise-95-accueil.jpg) no-repeat center top/100% 100%;*/
+               
+                height: 330px;
+                color: white;
+                text-align: center;
+                font-size: var(--size1);
+            }    
+
+            div.cover p{
+                color: lightgrey;
+                text-align: center;
+                margin-bottom: 2px;
+                font-size: var(--size1);
+                line-height: 1px;
+            }
+
+            div.section{
+                padding-left: 40px;
+                /*padding-right: 40px;
+                padding-top: 30px;*/
+                padding-right: 40px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                /*text-align: center;*/
+                overflow: auto;
+                
+            }
+            div.section-grise1{
+                background: url(triangle2white.svg) no-repeat center bottom/100%;
+                background-color: var(--color2);
+                padding-bottom: 90px;
+               
+            }
+
+            div.section-grise2{
+                background: url(triangle1white.svg) no-repeat center top/100%;
+                background-color: var(--color2);
+                padding-top: 80px;
+            }
+
+            div.section-grise1 p{
+                font-size: 12px;
+                color: #656565;
+                text-align: center;
+                max-width: 450px;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                text-justify: auto;
+            }
+            
+            a.contact-button{
+                border: 3px solid var(--color1);
+                color:var(--color1);
+                padding: 8px 15px;
+                text-decoration: none;
+                background-color: #00000040;
+                display: inline-block;
+                font-size: var(--size1);
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            a.contact-button:hover{
+                color: white;
+                border: 3px solid white;
+            
+            }
+          
+            div.texte-avec-ligne-verticale{
+                border-left: 4px solid var(--color3);
+                padding-left: 8px;
+                height: 100px;
+                margin-left: 1330px;
+                
+            }
+           
+            .col-portfolio {
+                width: 100%;
+                border: solid 0px white;
+                padding-left: 5px;
+                padding-right: 5px;
+                
+            }
+
+            
+            .col-portfolio img{
+                width: 470px;
+                height:470px;
+                text-align: center;
+                margin-right:0px;
+                box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            div.separateur{
+                height: 1px;
+                width: 150px;
+                background-color:#979797;
+                position: relative;
+                left: 50%;
+                margin-left: -75px;
+            }
+            div.barre-verticale{
+                border-left: 4px solid var(--color3);
+                height: 50px;
+                width: 4px;
+                margin-right: 8px;
+                margin-left: 8px;
+            }
+
+            
+
+            div.frame{
+                /*margin: 30px 50px;
+                padding: 20px 30px;*/
+                background-color: white;
+                box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+                
+                overflow: auto;
+                
+            }
+
+            div.sectionframe{
+                width: 100%;
+            }
+            .partenaire img{
+                width: 100px;
+                height:70px;
+                text-align: center;
+            }
+
+            .cover-logo{
+                width: 100px;
+                height: 90px;
+                border-radius: 50%;
+                margin-top: 100px;
+                border: solid 2px lightgrey;
+            }
+
+            /*img.cover-logo{
+                height: 100px;
+                position: relative;
+                left: 50%;
+                margin-left: -50px;
+                margin-top: 50px;
+            }*/
+
+
+           
+
+            h1{
+                color: lightgrey;
+                text-align: center;
+                font-size: 42px;
+                margin-top: -5px;
+                margin-bottom: 0px;
+                line-height: 1;
+            }
+
+            h2{
+                text-align: center;
+                font-size: 34px;
+                margin-top: 0px;
+                color: blue;
+            }
+
+            /*PORTFOLIO*/
+            div.colonne{
+                width: 100%;
+
+            }
+
+            div.colonne p:nth-child(odd) {
+                background-color:#e5ff00c5;	
+                border-radius: 25%;
+                color: lightgrey;
+                font-size: 14px;
+                font-weight: bold;
+              }
+              
+              div.colonne p:nth-child(even) {
+                background-color: #95a4e4;
+                border-radius: 25%;
+                color: lightgrey;
+                font-size: 14px;
+                font-weight: bold;
+            }     
+
+           
+
+            div.conception{
+                display: inline-block;
+                width: 33%;
+            }
+
+            div.confection{
+               margin-right: 80px;
+               margin-left: 498px;
+               margin-top: -130px;
+               width: 33%;
+            }
+
+            div.impression{
+                float: right;
+                margin-top: -280px;
+                width: 33%;
+            }
+            div.colonne h3{
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 12px;
+                margin-top: 20px;
+                border-bottom: 5px solid ;
+                color: #6C829D;
+                padding-bottom: 5px;
+            }
+
+
+            div.tableau p{
+                text-align: center;
+                font-size: 12px;
+                border: 1px solid lightgrey;
+                padding: 8px 0;
+                margin-top: 4px;
+                margin-bottom: 0px;
+            }
+            .impression-back{
+                color: var(--color3);
+            }
+
+
+            /*Page impression*/
+            div.impression-header{
+                background-color: lightgrey;
+                background: url(impression-grand-format-rps-imprimerie-val-oise-95-accueil.jpg) no-repeat center/cover;
+                height: 70px;
+                padding-top: 10px;
+                padding-bottom: 20px;
+                position: relative;
+            }
+
+
+            .impression-header-title{
+                font-size: 26px;
+                font-weight: bold;
+                color: lightsalmon;
+                font-family: 'Times New Roman';
+                padding-top: 4px;
+                padding-left: 4px;
+                margin-top: 10px;
+                margin-left: 1px;
+            }
+            a.contact-button-header{
+                position: absolute;
+                right: 10px;
+                margin-top:0px;
+                margin-bottom:5px;
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+            div.impression-header-barre-verticale{
+                border-left: 4px solid var(--color3);
+                padding-left: 8px;
+                height: 50px;
+                margin-left: 8px;
+                
+            }
+            /*table.td td,img{
+               
+                width: 700px;
+                height:470px;
+                box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+               
+            }
+            table.td td{
+                padding-left: 5px;
+                padding-right: 5px;
+            }*/
+           
+           /* RESPONSIVE DESIGN : MOBILE */
+           @media only screen and (max-width: 767px) {
+
+             body{
+                 background-color: red;
+             }
+
+            
+             a.contact-button-header{
+                
+                right: 12px;
+                margin-top:0px;
+                margin-bottom:1px;
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+            a.contact-button {
+                padding: 7px 12px;
+                margin-top: 22px;
+                font-size: 12px;
+            }
+           }
+           
+            
+
+           
